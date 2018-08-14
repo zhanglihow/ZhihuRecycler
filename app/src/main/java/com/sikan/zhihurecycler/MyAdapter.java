@@ -10,7 +10,7 @@ import android.widget.TextView;
 import java.util.List;
 
 /**
- * Created by Administrator
+ * Created by zhangli
  *
  * @time 2018/8/13
  */
@@ -42,12 +42,12 @@ public class MyAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             holder1.titleTv.setText("");
             holder1.msgTv.setText("");
             holder1.mLayout.setBackgroundColor(0X00000000);
-            holder1.ggTv.setVisibility(View.VISIBLE);
+//            holder1.ggTv.setVisibility(View.VISIBLE);
         }else{
             holder1.titleTv.setText(data.title);
             holder1.msgTv.setText(data.msg);
             holder1.mLayout.setBackgroundColor(0Xffffffff);
-            holder1.ggTv.setVisibility(View.GONE);
+//            holder1.ggTv.setVisibility(View.GONE);
         }
     }
 

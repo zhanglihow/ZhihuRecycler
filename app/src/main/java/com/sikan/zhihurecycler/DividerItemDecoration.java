@@ -7,7 +7,7 @@ import com.yanyusong.y_divideritemdecoration.Y_DividerBuilder;
 import com.yanyusong.y_divideritemdecoration.Y_DividerItemDecoration;
 
 /**
- * Created by Administrator
+ * Created by zhangli
  *
  * @time 2018/8/13
  */
